@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        <title>DARK STUDIOS</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function calc()
+            {
+                var n1=parseFloat(document.getElementById('n1').value);
+                var n2=parseFloat(document.getElementById('n2').value);
+                var oper=document.getElementById('operators').value;
+                if(oper === '+')
+                {
+                    document.getElementById('result').value = n1+n2; 
+                }
+                if(oper === '-')
+                {
+                    document.getElementById('result').value = n1-n2; 
+                }
+                if(oper === '*')
+                {
+                    document.getElementById('result').value = n1*n2; 
+                }
+                if(oper === '/')
+                {
+                    document.getElementById('result').value = n1/n2; 
+                }
+            }
+            </script>
+    </head>
+    <body>
+        <img src="https://static.vecteezy.com/system/resources/previews/008/215/484/non_2x/camera-dslr-neon-line-art-logo-colorful-design-with-dark-background-abstract-illustration-isolated-black-background-for-t-shirt-poster-clothing-merch-apparel-badge-design-vector.jpg" height="50" width="50">
+        <font color="red" size="7">DARK STUDIOS</font></p></h1>
+        <h1>Simple Calculator</h1>
+       
+            <small><font color="white" ><a href="Home.html">Home</a>
+                <a href="Login_page.html">Login page</a>
+                <a href="About_us.html">About us</a>
+                <a href="Contactus.html">Contact us</a>
+                <a href="list.html">Todolist</a>
+                <a href="Simple_Calc.html">Simple Calculator</a>
+                <a href="interactive Element.html">Interactive Element</a>
+                </font>
+            </small>
+    <br/>
+    <br/>
+
+        Num 1<input type="text" id="n1"/><br/><br/>
+        Num 2<input type="text" id="n2"/><br/><br/>
+
+        <select id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button onClick="calc();">=</button>
+        <input type="text" id="result"/>
+        <h4><small><em><font>+91 8056641158</font></em></small></h4>
+    </body>
+    </html>
+
+
